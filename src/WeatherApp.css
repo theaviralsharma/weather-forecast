@@ -1,0 +1,41 @@
+/* WeatherApp.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.WeatherApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px; /* Set a maximum width for better layout control */
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .WeatherApp {
+      margin: auto;
+      flex-direction: row; /* Arrange items in a row on larger screens */
+      justify-content: space-around; /* Distribute items evenly */
+  }
+}
+
+@media (max-width: 768px) {
+  .WeatherApp {
+      margin-top: 280px;
+      padding: auto;
+      align-items: center; /* Center align items on smaller screens */
+  }
+}

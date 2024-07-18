@@ -1,0 +1,55 @@
+/* InfoBox.css */
+
+.InfoBox {
+    text-align: center;
+    width: 90%;
+    max-width: 500px; /* Increased max-width for a wider InfoBox */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.MuiCard-root {
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.MuiCardMedia-root {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.MuiTypography-root {
+    text-align: left;
+    color: #555;
+}
+
+.MuiTypography-h5 {
+    text-align: center;
+    color: #333;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.extra-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Temperature div, .extra-info div {
+    width: 45%;
+}
